@@ -7,6 +7,8 @@ perspective on their security implications. The design also includes a secondary
 firewall, which uses the insights from both components to make informed decisions. 
 The system accommodates nine possible scenarios for handling requests, ranging 
 from straightforward approvals to deep packet inspection.
+
+
 Functionality:
 Parallel Analysis: The system operates by simultaneously directing 
 incoming network requests to the firewall and honeypot components 
@@ -22,6 +24,9 @@ Deep Packet Inspection: When necessary, the system conducts deep
 packet inspection to understand the intent behind requests.
 Database Updates: All components update a shared database with 
 information on threats, decision logs, and behavioral patterns.
+
+
+
 Advantages:
 Comprehensive Security: The parallel implementation ensures that 
 every request undergoes a multi-faceted analysis, enhancing security.
